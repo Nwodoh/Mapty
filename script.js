@@ -102,10 +102,10 @@ class App {
 
   _loadMap(position) {
     const { latitude, longitude } = position.coords;
+    const coords = [latitude, longitude]; // Present location
     // const coords = [6.517759599192656, 3.3171042117816727]; // Home: okota
-    // const coords = [latitude, longitude]; // Present location
     // const coords = [14.0113, 120.9977]; // Taal volcano
-    const coords = [21.116772, -11.405182]; // The eye of the Sahara
+    // const coords = [21.116772, -11.405182]; // The eye of the Sahara
     // const coords = [25.197525, 55.274288]; // Burg Khalifa
     // const coords = [27.986065, 86.922623]; // Mount everest
     // const coords = [38.897957, -77.03656]; // The white house
